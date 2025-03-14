@@ -3,13 +3,13 @@
     background-color: rgb(255, 225, 240);
     color: rgb(0, 0, 0);
     text-align: center;
-    margin: 0; /* Elimina márgenes por defecto */
-    padding: 0; /* Elimina relleno por defecto */
+    margin: 0; 
+    padding: 0; 
 }
 
 button {
     background-color: rgb(255, 225, 240);
-    color: #000; /* Establece el texto en negro */
+    color: #000; 
 }
 
 .parent {
@@ -17,8 +17,8 @@ button {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 8px;
-    justify-items: center; /* Centra los elementos en el eje horizontal */
-    align-items: center; /* Centra los elementos en el eje vertical */
+    justify-items: center; 
+    align-items: center; 
 }
 
 .div1 {
@@ -42,9 +42,9 @@ button {
     grid-column: span 4 / span 4;
     grid-row: span 4 / span 4;
     grid-row-start: 2;
-    display: flex; /* Cambia a flexbox para centrar el contenido */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .btn-volver {
