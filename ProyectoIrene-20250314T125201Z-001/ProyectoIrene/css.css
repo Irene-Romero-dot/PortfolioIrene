@@ -1,0 +1,62 @@
+@charset "UTF-8";
+* {
+    background-color: rgb(255, 225, 240);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina relleno por defecto */
+}
+
+button {
+    background-color: rgb(255, 225, 240);
+    color: #000; /* Establece el texto en negro */
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    justify-items: center; /* Centra los elementos en el eje horizontal */
+    align-items: center; /* Centra los elementos en el eje vertical */
+}
+
+.div1 {
+    grid-column: span 5 / span 5;
+}
+
+.div2 {
+    background-color: rgb(255, 128, 192);
+    border: none;
+    color: white;
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    border-radius: 12px; 
+}
+
+.div3 {
+    grid-column: span 4 / span 4;
+    grid-row: span 4 / span 4;
+    grid-row-start: 2;
+    display: flex; /* Cambia a flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.btn-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 128, 192);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
